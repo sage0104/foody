@@ -137,7 +137,6 @@ h4{
 h5{
     font: 500 1em 'Arial';
     color: white;
-    margin: 0;
 }
 .card{
     z-index: 2;
@@ -398,8 +397,9 @@ footer{
     height: 100px;
     border-radius: 50%;
 }
-.section5 .carousel-item p{
-    padding: 0 80px;
+.thought{
+    padding: 0 50px;
+    text-align: center;
 }
 .users{
     display: flex;
@@ -414,11 +414,8 @@ footer{
 .usertext{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
     padding: 0 20px;
 }
-.usertext p{padding: 0;}
 .section5 .carousel-control-prev{
     width: 40px;
     height: 40px;
@@ -479,13 +476,12 @@ footer{
 }
 #email{
     padding: 10px;
-    width: 400px;
     text-align: left;
     margin-bottom: 10px;
     border: 1px solid #CED4DA;
 }
 #subscribe{
-    width: 400px;
+    width: 16em;
     padding: 10px;
     border: none;
     background-color: var(--orange);
@@ -504,7 +500,7 @@ footer p{
 }
 #copy{
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 .footer{
     display: flex;
@@ -527,7 +523,7 @@ footer p{
 }
 .about i{
     color: var(--orange);
-    padding: 30px 20px;
+    padding: 30px 5%;
 }
 .social{
     display: flex;

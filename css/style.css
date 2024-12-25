@@ -605,6 +605,33 @@ footer h6{ font-weight: 700;}
         margin: 0 10px;
         transition: .4s;
     }
+    .text a:hover{
+        background-color: white;
+        color: black;
+    }
+    .contact_us:hover{
+        background-color: #fff;
+        color: var(--orange);
+    }
+    #carouselExampleFade:hover .arrows{display: block;}
+    .arttxt a:hover{background-color: #ff75049c;}
+
+    #subscribe:hover{ background-color: #ff75049c;}
+    .links a:hover{color: #a84c00;}
+    .social i:hover{color: #000;}
+    article:hover{transform: scale(1.05)}
+    #menudish1:hover{transform: scale(1.05); border-radius: 20%;}
+    #menudish2:hover{transform: scale(1.05); border-radius: 20%;}
+    #menudish3:hover{transform: scale(1.05); border-radius: 20%;}
+    #menudish4:hover{transform: scale(1.05); border-radius: 20%;}
+    .description:hover{transform: scale(1.05);}
+    #food1:hover{transform: scale(1.05);}
+    #food2:hover{transform: scale(1.05);}
+    #food3:hover{transform: scale(1.05);}
+    .foodcap:hover .dollar{
+        background-color: transparent;
+        border: 1px solid var(--orange);
+    }
 }
 @media only screen and (min-width:990px) {
     .background {
@@ -631,19 +658,13 @@ footer h6{ font-weight: 700;}
     .contact_us{
         padding: 10px 15px;
     }
-    .text a:hover{
-        background-color: white;
-        color: black;
-    }
-    .contact_us:hover{
-        background-color: #fff;
-        color: var(--orange);
-    }
+    
+    
     h1{
         font-size:3.6em;
         letter-spacing: 3px;
     }
-    #carouselExampleFade:hover .arrows{display: block;}
+    
     .card-body {
         text-align: left;
     }
@@ -736,22 +757,5 @@ footer h6{ font-weight: 700;}
     }
     .order{order: 2;}
 
-    .arttxt a:hover{background-color: #ff75049c;}
-
-    #subscribe:hover{ background-color: #ff75049c;}
-    .links a:hover{color: #a84c00;}
-    .social i:hover{color: #000;}
-    article:hover{transform: scale(1.05)}
-    #menudish1:hover{transform: scale(1.05); border-radius: 20%;}
-    #menudish2:hover{transform: scale(1.05); border-radius: 20%;}
-    #menudish3:hover{transform: scale(1.05); border-radius: 20%;}
-    #menudish4:hover{transform: scale(1.05); border-radius: 20%;}
-    .description:hover{transform: scale(1.05);}
-    #food1:hover{transform: scale(1.05);}
-    #food2:hover{transform: scale(1.05);}
-    #food3:hover{transform: scale(1.05);}
-    .foodcap:hover .dollar{
-        background-color: transparent;
-        border: 1px solid var(--orange);
-    }
+    
 }
